@@ -1,0 +1,14 @@
+User-Agent: *
+Allow: /wp-content/uploads/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /search/
+Disallow: *?add-to-cart=*
+Disallow: *?filter_*
+Disallow: *?sort=*
+Disallow: /author/
+
+Sitemap: https://jpautohub.com/sitemap_index.xml
