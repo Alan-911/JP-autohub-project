@@ -4,6 +4,12 @@
 
 [Live website](https://jpautohub.com/) · [SEO action plan](SEO_Action_Plan.md) · [Keyword and metadata plan](Enhanced_SEO_Keywords.md) · [Category and URL plan](Categories_and_URLs.md)
 
+## Website rebuild and SEO project overview
+
+![J&P AutoHub website rebuild and SEO workflow](docs/images/project-overview.svg)
+
+*Illustrative project-workflow graphic, not a screenshot of the live website or a measured SEO ranking outcome. [View the customer-facing site](https://jpautohub.com/).*
+
 ## Overview
 
 J&P AutoHub is an automotive parts e-commerce website serving customers searching for replacement, OEM and salvage parts. My project work focused on **rebuilding and improving the customer-facing website** and developing a practical search-engine optimization strategy to make important pages, categories and inventory listings easier to discover.
