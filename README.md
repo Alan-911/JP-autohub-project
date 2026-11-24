@@ -1,5 +1,7 @@
 # J&P AutoHub — Website Rebuild & E-Commerce SEO
 
+[![CI](https://github.com/Alan-911/JP-autohub-project/actions/workflows/ci.yml/badge.svg)](https://github.com/Alan-911/JP-autohub-project/actions/workflows/ci.yml)
+
 **Website redevelopment · Technical SEO · Product taxonomy · WordPress / WooCommerce**
 
 [Live website](https://jpautohub.com/) · [SEO action plan](SEO_Action_Plan.md) · [Keyword and metadata plan](Enhanced_SEO_Keywords.md) · [Category and URL plan](Categories_and_URLs.md)
@@ -94,3 +96,11 @@ README.md                  Scope, evidence, approach and limitations
 ## Author
 
 **Yves Alain Iragena** · [Portfolio](https://alan-911.github.io/my-portfolio/) · [GitHub](https://github.com/Alan-911)
+
+
+## Repository quality and security
+
+- [Continuous integration](.github/workflows/ci.yml).
+- [Security reporting policy](SECURITY.md) and [contribution guidelines](CONTRIBUTING.md).
+- The workflow verifies case-study document structure, not website security or Google search rankings.
+- Licensing for reuse should be confirmed with the project owner; no new license is granted by these workflow updates.
