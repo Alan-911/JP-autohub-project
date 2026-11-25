@@ -1,0 +1,21 @@
+name: Case study document checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify evidence files
+        run: |
+          set -euo pipefail
+          for file in README.md SEO_Action_Plan.md Enhanced_SEO_Keywords.md Categories_and_URLs.md robots.txt; do
+            test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
+          done
+          grep -q "Evidence and scope" README.md
+          echo "Documentation checks passed. This does not verify Google search rankings."
